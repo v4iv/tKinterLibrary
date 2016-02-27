@@ -1,0 +1,14 @@
+from tkinter import *
+
+root = Tk()
+
+
+def print_name():
+    printLabel = Label(root, text='My name is Vaibhav Sharma')
+    printLabel.pack()
+
+
+button1 = Button(root, text='Hello !', fg='white', bg='blue', command=print_name)
+button1.pack()
+
+root.mainloop()
