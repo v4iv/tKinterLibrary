@@ -1,6 +1,8 @@
 from tkinter import *
 
 root = Tk()
+root.title("My Software")
+root.minsize(width=700, height=450)
 
 userLabel = Label(root, text='Username')
 passLabel = Label(root, text='Password')
